@@ -92,6 +92,8 @@ html {
 
 .clock-icon {
   width: 5rem;
+
+  transform: translateY(1rem);
 }
 
 .clock-container {
