@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+## Project created in purpose to learn TypeScript and React-context
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

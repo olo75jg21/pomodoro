@@ -6,6 +6,8 @@ import { ISettings, SettingsContext } from './SettingsContext';
 export const Header = (): JSX.Element => {
   const settingsInfo = useContext<ISettings>(SettingsContext);
 
+  const startAudio = new Audio("../sounds/song.mp3");
+
   return (
     <div className='header'>
       <div>
