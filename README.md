@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 ## Project created in purpose to learn TypeScript and React-context
+## Live version: https://olo75jg21.github.io/pomodoro/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
