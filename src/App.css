@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #333333;
+  color: #ccc;
+  font-family: 'Rubik', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  min-height: 95vh;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.margin-top-sm {
+  margin-top: 3rem;
+}
+
+.button {
+  width: 8rem;
+  background-color: transparent;
+  border: none;
+  color: #ccc;
+  display: inline-block;
+}
+
+.settings-label {
+  font-size: 1.8rem;
+  display: block;
+}
+
+.settings-container {
+  text-align: left;
+}
+
+.slider {
+  height: 4rem;
+  border: 2px solid red;
+  border-radius: 2rem;
+}
+
+.thumb {
+  background-color: red;
+  width: 4rem;
+  height: 3.5rem;
+  border-radius: 2rem;
+}
+
+.slider.green {
+  border: 2px solid lightgreen;
+}
+
+.slider.green .thumb {
+  background-color: lightgreen;
+}
