@@ -8,7 +8,7 @@ export const Pomodoro = (): JSX.Element => {
   const settingsInfo = useContext<ISettings>(SettingsContext);
 
   return (
-    <div>
+    <div className='container center' >
       {settingsInfo.showSettings ? <Settings /> : <Timer />}
     </div>
   );

@@ -17,7 +17,6 @@ html {
 .container {
   max-width: 120rem;
   margin: 0 auto;
-  min-height: 95vh;
 }
 
 .center {
@@ -36,34 +35,79 @@ html {
   border: none;
   color: #ccc;
   display: inline-block;
+
+  transition: all .3s;
+}
+
+.button:hover {
+  color: #fff;
 }
 
 .settings-label {
   font-size: 1.8rem;
   display: block;
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
 }
 
 .settings-container {
+  text-align: center;
+}
+
+/* SETTINGS */
+.numerics-container {
+  display: flex;
+  gap: 3rem;
+  justify-content: space-between;
+}
+
+.react-numeric-input input {
+  color: #000;
+  width: 15rem;
+  height: 4rem;
+  font-size: 4rem !important;
+  outline: none;
+  border: none;
   text-align: left;
 }
 
-.slider {
-  height: 4rem;
-  border: 2px solid red;
-  border-radius: 2rem;
+/* Header */
+
+.header {
+  max-width: 100vw;
+  padding: 2rem 4rem;
+  background-color: #242424;
+  margin-bottom: 10rem;
+
+  display: flex;
+  justify-content: space-between;
 }
 
-.thumb {
-  background-color: red;
-  width: 4rem;
-  height: 3.5rem;
-  border-radius: 2rem;
+.header-first {
+  display: inline;
+  font-size: 4rem;
+  font-weight: 500;
+  letter-spacing: .1rem;
 }
 
-.slider.green {
-  border: 2px solid lightgreen;
+.clock-icon {
+  width: 5rem;
 }
 
-.slider.green .thumb {
-  background-color: lightgreen;
+.clock-container {
+  display: inline;
+}
+
+.button-settings {
+  height: 5rem;
+  background-color: transparent;
+  border: none;
+  color: #ccc;
+  display: inline-block;
+
+  transition: all .3s;
+}
+
+.button-settings:hover {
+  color: #fff;
 }

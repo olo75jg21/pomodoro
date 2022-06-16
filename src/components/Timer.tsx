@@ -15,7 +15,7 @@ const green = '#4aec8c'
 export const Timer = (): JSX.Element => {
   const settingsInfo = useContext<ISettings>(SettingsContext);
 
-  const [isPaused, setIsPaused] = useState<boolean>(false);
+  const [isPaused, setIsPaused] = useState<boolean>(true);
   const [mode, setMode] = useState<string>('work');
   const [secondsLeft, setSecondsLeft] = useState<number>(0);
 
@@ -85,7 +85,6 @@ export const Timer = (): JSX.Element => {
           ? <StartButton onClick={() => { setIsPaused(false); isPausedRef.current = false; }} />
           : <StopButton onClick={() => { setIsPaused(true); isPausedRef.current = true; }} />
         }
-        <SettingsButton onClick={() => settingsInfo.setShowSettings(true)} />
       </div>
     </div>
   );
