@@ -77,7 +77,8 @@ export const Timer = (): JSX.Element => {
         styles={buildStyles({
           textColor: '#fff',
           pathColor: mode === 'work' ? red : green,
-          trailColor: 'rgba(255,255,255,.2)'
+          trailColor: 'rgba(255,255,255,.2)',
+          textSize: '12px'
         })}
       />
       <div className='center margin-top-sm'>

@@ -19,6 +19,11 @@ html {
   margin: 0 auto;
 }
 
+.pomodoro-w-sm {
+  width: 50rem;
+  margin-top: -3.2rem;
+}
+
 .center {
   display: flex;
   align-items: center;
@@ -108,6 +113,10 @@ html {
   display: inline-block;
 
   transition: all .3s;
+}
+
+.button-settings-container {
+  width: 3rem;
 }
 
 .button-settings:hover {
